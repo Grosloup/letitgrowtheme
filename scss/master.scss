@@ -1,1 +1,26 @@
-.test{}
+.question{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.choices{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.choice {
+  width: percentage(1/3);
+
+}
+
+.choice__img{
+  img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+

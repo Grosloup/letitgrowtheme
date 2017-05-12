@@ -13,7 +13,6 @@ gulp.task('sass', function () {
                 browsers: ['last 3 versions']
             }
         ))
-        .pipe(uglifycss())
         .pipe(gulp.dest('css'))
         .pipe(browserSync.stream());
 });
